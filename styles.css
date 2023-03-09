@@ -33,7 +33,7 @@ li, a {
     float: left;
     font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
-        font-weight:500;
+    font-weight:500;
     margin-left: 24px;
     margin-top: 24px;
     margin-bottom: 36px;
@@ -41,11 +41,6 @@ li, a {
     color: #191a1a;
 }
 
-
-a {
-    display: block;
-    padding: 8px;
-}
 
 h1 {
     font-size: 64px;
@@ -59,8 +54,8 @@ h1 {
 h2 { 
     font-size: 38px;
     line-height: normal;
-    color: #f8f8f8
-        kerning: auto;
+    color: #131516;
+    margin-left: 48px;
 }
 
 h3 {
@@ -88,11 +83,16 @@ h3 {
     margin-left: 48px;
 }
 
-.h1color h1 {
+.h1color h1{
     color:#f8f8f8;
     letter-spacing: 0.1rem;
     font-family: Helvetica;
+    text-align: center;
+    display: block;
+    margin-left: 48px;
+
 }
+
 
 .film {
    background-image: url(../portfolio/Film.png);
@@ -105,12 +105,11 @@ h3 {
 }
 
 .film_text {
-    margin-top:24px;
-    padding-top: 300px;
-    text-align: center;
-    margin-left: 48px;
+    padding-top: 150px;
+    margin-top: 24px;
+    width: 100%;
 }
-       
+   
   
 .digital {
     background-image: url(../portfolio/Digital.png);
@@ -123,24 +122,72 @@ h3 {
 }
 
 .digital_text {
-    margin-top: 0px;
-    padding-top: 300px;
-    text-align: center;
+    padding-top: 150px;
+    width: 100%;
+}
+
+.article {
+    margin-left: 48px;
+    margin-right: 48px;
+    padding-left: 48px;
+}
+
+footer {
+    background-color: #3f8b7b;
+    width: 100%;
+    display:grid;
+    padding-bottom: 84px;
+    padding-top: 64px;
+}
+
+.footer p
+{ 
+    margin-left: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 16px;
+    align-items: center;
+}
+
+
+.gallery img {
+    width: 100%;
+    max-width: 600px;
+    height: 800px;
+    margin: 0;
+    object-fit: cover;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    max-width: 1400px;
+    margin: 0 auto;
+    column-gap: 16px;
+    row-gap: 16px;
+
+}
+
+p { 
+    align-items: left;
+    padding-top: 8px;
+    padding-left: 24px;
+    margin-bottom: 24px;
+    margin-left: 24px;
+}
+
+header h2  {
+    font-size: 42px;
+    line-height: normal;
+    color: #131516;
     margin-left: 48px;
 }
 
-/* Index.html row class home */
-.row {
-    display: flex;
-}
-
-.column {
-    flex: 33.33%;
-    padding: 5px;
-}
-
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-    }
+header p {
+    font-size: 20px;
+    line-height: normal;
+    color: rgb(46, 44, 44);
 }
