@@ -4,7 +4,7 @@ body {
     margin: 0px;
     font-family: "neue-haas-grotesk-display", sans-serif;
     padding: 0px;  
-    background-color: #2f2f2f;    
+    background-color: #121212;    
 }
 
 
@@ -91,28 +91,28 @@ li, a:active {
 
 
 h1 {
-    font-size: 128px;
+    font-size: 84px;
     font-family: "neue-haas-grotesk-display", sans-serif;
     color: #f8f8f8;
     line-height: normal;
     font-weight: 700;
     font-style: normal;
-    kerning: auto;
 
 }
 
 h2 { 
     font-size: 38px;
+    font-family: "neue-haas-grotesk-display", sans-serif;
     line-height: normal;
     color: #f8f8f8;
     margin-left: 48px;
-    font-weight: 500;
+    font-weight: 800;
 }
 
 h3 {
     font-size: 32px;
     line-height: normal;
-    color: #202526;
+    color: #f8f8f8;
     font-family: "neue-haas-grotesk-display", sans-serif;
     
 }
@@ -123,42 +123,46 @@ p {
     font-weight: 400;
     font-style: normal;
     line-height: normal;
-    text-align: center;
+    text-align: left;
     letter-spacing: 0.1rem;
 }
 
 .hero {
-    background-image: url(../portfolio/hero.jpg);
-     /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
-    object-fit: fill;      
-    height: 1000px;
-    position: relative;
-    background-attachment: fixed;
-    box-shadow: inset 0 0 0 2000px rgba(127, 119, 127, 0.4);
+    float: right;
+    height: 600px;
+    margin-top: 140px;
 }
 
-
+/*hero text old
 .hero_text { 
     margin-top: 240px;
     text-align: center;    
     margin-left: 48px;
     font-weight: 700;
-    letter-spacing: 0.1rem;
-    text-align: center;
     display: block;
     margin-left: 48px;
 }
+*/
 
+.hero_text {
+    margin-top: 240px;
+    text-align: left;
+    font-weight: 700;
+    display: block;
+    margin-left: 24px;
+    width: 100%;
+}
 
 .name {
     color: #f8f8f8;
-    margin: 8px;
+    margin-left: 24px;
+    text-align: left;
+    width: 100%;
+    font-size: 48px;
 }
 
-.h1color h1 {
+
+.h1color h1  {
     color: #f8f8f8;
     text-align: center;
     text-decoration: none;
@@ -173,59 +177,61 @@ p {
 }
   
 
+
+
 .film {
-    background-image: url( );
+    background-image: url(Images/Cars.png);
     height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
-    background-size: auto;
-    position: sticky;
-    background-attachment: fixed;
+    background-attachment: scroll;
     box-shadow: inset 0 0 0 2000px rgba(127, 119, 127, 0.2);
 }
 
 .film_text {
     padding-top: 150px;
+    vertical-align: center;
     margin-top: 24px;
     width: 100%;
+ 
 }
 
 .digital {
     background-image: url(Images/berries.jpg);
-    height: 600px;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
-    background-size:auto;
     position: sticky;
-    background-attachment:fixed;
-    object-fit: fill;
+    background-attachment: scroll;
     box-shadow: inset 0 0 0 2000px rgba(127, 119, 127, 0.2);
 }
 
 .digital_text {
-    padding-top: 150px;
+    padding-top: 125px;
+    vertical-align: center;
     width: 100%;
 }
 
-
-.column img {
-    vertical-align: middle;
-    width: 100%;
-    margin-top: 0;
-   
-}
 
 .row {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
- 
 }
 
-
 .column {
-    flex: 50%;
-    max-width: 50%;
-  }
+    flex: 25%;
+    max-width: 100%;
+    padding: 0 4px;
+}
 
+  .column img {
+      margin-top: 8px;
+      vertical-align: middle;
+      width: 100%;
+  }
 
 p { 
     align-items: left;
@@ -251,11 +257,15 @@ header p {
 }
 
 footer {
-display: inline-block;
+text-align: left;
+width: 100%;
+display: block;
+margin-left: 48px;
+
 }
 
 footer a {
-    text-align: center;
+    text-align: left;
     font-size: 16px;
     color: #f8f8f8;
     font-weight: 400;
@@ -265,8 +275,8 @@ footer li {
         float: left;
         font-family: "neue-haas-grotesk-display", sans-serif;
         margin-left: 16px;
-        margin-top: 24px;
-        margin-bottom: 36px;
+        margin-top: 8px;
+        margin-bottom: 24px;
         text-decoration: none;
 }
 
@@ -282,4 +292,89 @@ footer li {
 
 .linkedin:hover {
     content: url("Logo/linkedin\ hover.svg")
+}
+
+.copyright {
+    color: grey;
+    text-decoration: none;
+    margin: 8px;
+    text-align: left;
+    width: 100%;
+}
+
+.people {
+    background-image: url(Images/lookleft.jpg);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    box-shadow: inset 0 0 0 2000px rgba(127, 119, 127, 0.2);
+}
+
+.people_text {
+    padding-top: 48px;
+    width: 100%;
+    text-align: center;
+    vertical-align: center;
+}
+
+.places {
+    background-image: url(Images/bwbuilding.jpg);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    box-shadow: inset 0 0 0 2000px rgba(127, 119, 127, 0.2);
+}
+
+.places_text {
+    padding-top: 48px;
+    width: 100%;
+    text-align: center;
+    vertical-align: center; 
+}
+
+.things {
+    background-image: url(Images/whiteflower.jpg);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    box-shadow: inset 0 0 0 2000px rgba(127, 119, 127, 0.2);
+}
+
+.things_text {
+    padding-top: 48px;
+    width: 100%;
+    text-align: center;
+    vertical-align: center;
+}
+
+/*marquee
+.marquee_text {
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: normal;
+    kerning: auto;
+    background-color:peachpuff;
+    color: #070707;
+    padding: 12px;
+}
+*/
+
+
+.not_ready {
+    margin-top: 240px;
+    font-family: "neue-haas-grotesk-display", sans-serif;    
+    text-align: center;
+    font-weight: 700;
+    display: block;
+    width: 100%;
 }
