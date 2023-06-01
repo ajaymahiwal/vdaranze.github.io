@@ -1,6 +1,15 @@
 # creative-portfolio
 
-Creative Portfolio for illustrations, designs, and photography
-This creative portfolio cannot be accessed yet, once it's completed it will be hosted live on GH. 02/24/23
+<h1>Coding/Creative Portfolio</h1>
+<p>This creative portfolio was created as a html/css project, and to highlight some photography work.</p>
 
-To access my portfolio, visit https://vdaranze.github.io
+**LIVE LINK:** https://vdaranze.github.io
+
+<h2>Features</h2>
+<p>This project includes:</p>
+<ul>
+<li>About me page</li>
+<li>Stills page for photography</li>
+<li>Two subpages with film and digital</li>
+<li>Design page in progress</li>
+</ul>
