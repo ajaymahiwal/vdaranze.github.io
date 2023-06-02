@@ -135,6 +135,8 @@ p {
 }
 
 .hero_text {
+    display: flex;
+    flex-direction: wrap;
     margin-top: 24px;
     margin-left: 24px;
     max-width: 80%;
@@ -370,4 +372,23 @@ footer li {
     font-weight: 700;
     display: block;
     max-width: 100%;
+}
+
+top {
+    display: none;
+    margin: 48px;
+    left: 24px;
+    bottom: 24px;
+    right: 24px;
+    border: none;
+    border-radius: 4px;
+    padding: 4px;
+    font-size: 16px;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    background-color: #f8f8f8;
+
+}
+
+top:hover {
+    background-color:#121212;
 }
