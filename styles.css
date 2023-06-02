@@ -1,5 +1,5 @@
 body {
-    width: 100%;  
+    max-width: 100%;  
     height: 100%;
     margin: 0px;
     font-family: "neue-haas-grotesk-display", sans-serif;
@@ -129,8 +129,9 @@ p {
 
 .hero {
     float: right;
-    height: 600px;
-    margin-top: 140px;
+    margin-top: 48px;
+    width: 600px;
+    max-width: 80%;
 }
 
 /*hero text old
@@ -145,12 +146,12 @@ p {
 */
 
 .hero_text {
-    margin-top: 240px;
+    margin-top: 24px;
+    margin-left: 24px;
+    max-width: 80%;
     text-align: left;
     font-weight: 700;
     display: block;
-    margin-left: 24px;
-    width: 100%;
 }
 
 .name {
@@ -182,6 +183,7 @@ p {
 .film {
     background-image: url(Images/Cars.png);
     height: 800px;
+    max-width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -200,6 +202,7 @@ p {
 .digital {
     background-image: url(Images/berries.jpg);
     height: 800px;
+    max-width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -218,6 +221,7 @@ p {
 .row {
     display: flex;
     flex-wrap: wrap;
+    max-width: 100%;
     padding: 0 4px;
 }
 
@@ -230,7 +234,7 @@ p {
   .column img {
       margin-top: 8px;
       vertical-align: middle;
-      width: 100%;
+      max-width: 100%;
   }
 
 p { 
@@ -258,7 +262,7 @@ header p {
 
 footer {
 text-align: left;
-width: 100%;
+max-width: 100%;
 display: block;
 margin-left: 48px;
 
@@ -376,5 +380,5 @@ footer li {
     text-align: center;
     font-weight: 700;
     display: block;
-    width: 100%;
+    max-width: 100%;
 }
