@@ -91,7 +91,7 @@ li, a:active {
 
 
 h1 {
-    font-size: 84px;
+    font-size: 48px;
     font-family: "neue-haas-grotesk-display", sans-serif;
     color: #f8f8f8;
     line-height: normal;
@@ -101,7 +101,7 @@ h1 {
 }
 
 h2 { 
-    font-size: 38px;
+    font-size: 32px;
     font-family: "neue-haas-grotesk-display", sans-serif;
     line-height: normal;
     color: #f8f8f8;
@@ -110,7 +110,7 @@ h2 {
 }
 
 h3 {
-    font-size: 32px;
+    font-size: 24px;
     line-height: normal;
     color: #f8f8f8;
     font-family: "neue-haas-grotesk-display", sans-serif;
