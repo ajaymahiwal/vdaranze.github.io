@@ -363,3 +363,17 @@ padding-top: 125px;
     vertical-align: center;
     width: 100%;
 }
+
+
+//New Line of Added
+
+.social-media{
+    display: flex;
+    /* border: 5px solid white;  */
+    /* this line was added to check funcationality of code */
+    justify-content: center;
+}
+
+.copyright{
+    text-align: center;
+}
